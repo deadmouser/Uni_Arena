@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.venv
+venv/
+ENV/
+.env
+.env.local
+.env.*
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+
+# Vue/Vite
+dist/
+dist-ssr/
+*.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Project specific
+backend/static/
+backend/connection_error.log
+backend/*.log
+backend/*.txt
+frontend/dist/
+project_structure.txt
+verify_output_*.txt
+*.sqlite
+backend/images/
+backend/videos/
+*.db
+backend/test.db
+
+# Root logs and artifacts
+*.log
+error.txt
+nul
+verify_output*.txt
+users_list.txt
